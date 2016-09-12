@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search "
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linear1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:text=" Available Filters"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Keywords:"
+                android:id="@+id/keyword"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="City:"
+                android:id="@+id/city"
+                android:ellipsize="start"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Zipcode:"
+                android:id="@+id/zip"
+                android:ellipsize="start"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:hint="Min Price"
+                android:id="@+id/minprice"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:hint="Max Price"
+                android:id="@+id/maxprice"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp" />
+
+            <Button android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:id="@+id/searchtenant"
+                android:onClick="onClick"
+                android:text="submit"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="result:"
+                android:id="@+id/edit6"
+                android:ellipsize="start"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>

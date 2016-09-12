@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posting form"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linear1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            >
+
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Address"
+                android:id="@+id/editText1"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:inputType="textNoSuggestions"
+                />
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Street"
+                android:id="@+id/editText2"
+                android:ellipsize="start"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="City"
+                android:id="@+id/editText3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="State"
+                android:id="@+id/editText4"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Zip Code"
+                android:id="@+id/editText5"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Property type"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:prompt="@string/type_name"
+                android:entries="@array/spinnerItems"
+                android:id="@+id/spinner"
+                android:spinnerMode="dropdown" />
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Room(s)"
+                android:id="@+id/editText6"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#fff"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Bathroom(s)"
+                android:id="@+id/editText7"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Sq feet"
+                android:id="@+id/editText8"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Monthly Rent in $"
+                android:id="@+id/editText9"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Contact Cell Phone"
+                android:id="@+id/editText10"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Email ID"
+                android:id="@+id/editText11"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Description"
+                android:id="@+id/editText12"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Image"
+                android:id="@+id/textView2" />
+
+            <ImageView android:layout_width="47dp"
+                android:layout_height="47dp"
+
+                android:orientation="horizontal"
+                android:id="@+id/camera" />
+
+            <ImageView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image1" />
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:hint="Initial Deposit amount in $"
+                android:id="@+id/editText13"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textNoSuggestions"/>
+
+            <Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="submit"
+                android:onClick="submit"
+                android:textColor="#fff"
+                android:id="@+id/newsearch"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

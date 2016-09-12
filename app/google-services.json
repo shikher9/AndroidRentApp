@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "698344392898",
+    "project_id": "newnavi-aa126"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698344392898:android:669c8452219b78b3",
+        "android_client_info": {
+          "package_name": "com.example.sharathn.newnavi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698344392898-1stnk17lnuvopf6c1dpca59scmbri14i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharathn.newnavi",
+            "certificate_hash": "5C2383542CA3AABBCDF5C014C68F209C0F48FB57"
+          }
+        },
+        {
+          "client_id": "698344392898-goup3c8jepfldqa83h5vpi5nhmrfrlb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4F56ImbIEv6krZpY517fUbvWdCkYe-8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

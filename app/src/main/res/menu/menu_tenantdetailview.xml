@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setfavouritemenuitem"
+        android:icon="@mipmap/ic_action_action_favorite_outline"
+        android:title="Done"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/deletefromfavourite"-->
+        <!--android:icon="@mipmap/ic_action_action_delete"-->
+        <!--android:title="Done"-->
+        <!--app:showAsAction="always" />-->
+
+</menu>
